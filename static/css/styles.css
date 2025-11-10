@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Tahoma", "Segoe UI", sans-serif;
+}
+
+.card-metric {
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.table thead th {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.table-preview {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-title .icon {
+    font-size: 1.75rem;
+}
+
+.form-control::placeholder {
+    color: #adb5bd;
+}
+
+.examples-table td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 240px;
+    overflow: hidden;
+}
+
