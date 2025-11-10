@@ -24,7 +24,7 @@ pip install -r requirements.txt
 قم بتشغيل التطبيق باستخدام الأمر التالي:
 
 ```bash
-streamlit run streamlist.py
+streamlit run streamlit_app.py
 ```
 
 سيتم فتح التطبيق في المتصفح تلقائياً على العنوان: `http://localhost:8501`
